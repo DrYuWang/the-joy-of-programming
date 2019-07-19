@@ -10,39 +10,39 @@ namespace BinarySearch
     {
         static void Main(string[] args)
         {
+            // Write a program that uses the binary search to find the index of a given number in
+            // a sorted array. If the number does not exist, it should return -1.
+            // Note: Binary search only works on a sorted sequence.
+            
             int[] nums = { 2, 2, 3, 3, 4, 6, 54, 56 }; // a sorted array.
-            int index = GetIndexOf(2, nums);
-
+            // Array.Sort(nums); // Sorts the array if it's not sorted.
+            int index = GetIndexOf(2, nums);            
             Console.WriteLine(index);
         }
-
-        private static int GetIndexOf(int value, int[] array)
-        {
-            // Write a program that uses the binary search to find the index of a given number in
-            // a sorted array. 
-            // Note: Binary search only works in a sorted sequence.
-
-            // Array.Sort(nums); // Sorts the array if it's not sorted.
+        /// <summary>
+        /// Returns the index of a given number in a given array. If the number does not exist, 
+        /// returns -1.
+        /// </summary>
+        /// <param name="number"></param>
+        /// <param name="array"></param>
+        /// <returns></returns>
+        private static int GetIndexOf(int number, int[] array)
+        { 
             int lowerBound = 1;
             int upperBound = array.Length;
-            int givenNumber = 2;
-            int index = 0;
-
             while (lowerBound <= upperBound)
             {
                 int midPoint = (lowerBound + upperBound) / 2;
-                if (array[midPoint] > givenNumber)
+                if (array[midPoint] > number)
                     upperBound = midPoint - 1;
-                else if (array[midPoint] < givenNumber)
+                else if (array[midPoint] < number)
                     lowerBound = midPoint + 1;
                 else // equal to value
                 {
-                    index = midPoint;
-                    break;
+                    return midPoint;                    
                 }
             }
-
-            return index;
+            return -1;
         }
     }
 }
