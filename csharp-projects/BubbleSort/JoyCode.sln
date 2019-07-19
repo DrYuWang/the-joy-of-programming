@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleNoodleCooker", "Simpl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginPasswordCheck", "LoginPasswordCheck\LoginPasswordCheck.csproj", "{26B3F82B-61AA-49B0-8A51-F9569B3D9A3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{C6E2E4F1-5AB7-45E0-9A1F-B4F211EA965A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{26B3F82B-61AA-49B0-8A51-F9569B3D9A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26B3F82B-61AA-49B0-8A51-F9569B3D9A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26B3F82B-61AA-49B0-8A51-F9569B3D9A3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6E2E4F1-5AB7-45E0-9A1F-B4F211EA965A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6E2E4F1-5AB7-45E0-9A1F-B4F211EA965A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6E2E4F1-5AB7-45E0-9A1F-B4F211EA965A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6E2E4F1-5AB7-45E0-9A1F-B4F211EA965A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
