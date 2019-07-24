@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E04E9B7F-9861-4E36-83FB-2944835D4665}</ProjectGuid>
+    <ProjectGuid>{0693708B-4CB7-4406-B4E1-580999FDBD2F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Array_Reverse</RootNamespace>
-    <AssemblyName>Array_Reverse</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <RootNamespace>Struct_Introduction</RootNamespace>
+    <AssemblyName>Struct_Introduction</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>

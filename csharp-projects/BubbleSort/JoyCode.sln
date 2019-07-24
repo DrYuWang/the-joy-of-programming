@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginPasswordCheck", "Login
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{C6E2E4F1-5AB7-45E0-9A1F-B4F211EA965A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct_Introduction", "Struct_Introduction\Struct_Introduction.csproj", "{0693708B-4CB7-4406-B4E1-580999FDBD2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{C6E2E4F1-5AB7-45E0-9A1F-B4F211EA965A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6E2E4F1-5AB7-45E0-9A1F-B4F211EA965A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6E2E4F1-5AB7-45E0-9A1F-B4F211EA965A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0693708B-4CB7-4406-B4E1-580999FDBD2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0693708B-4CB7-4406-B4E1-580999FDBD2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0693708B-4CB7-4406-B4E1-580999FDBD2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0693708B-4CB7-4406-B4E1-580999FDBD2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

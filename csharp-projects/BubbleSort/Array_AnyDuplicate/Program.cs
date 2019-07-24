@@ -19,7 +19,7 @@ namespace Array_AnyDuplicate
         /// </summary>
         /// <returns></returns>
         static bool AnyDuplicate(int[] numbers)
-        {            
+        {
             for (int i = 0; i < numbers.Length; i++)
             {
                 for (int j = i + 1; j < numbers.Length; j++)
